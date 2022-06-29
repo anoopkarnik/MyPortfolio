@@ -30,25 +30,20 @@ function Home2() {
               <br />
               <br />I am fluent in languages - 
               <i>
-                <b className="purple"> Python, SQL, Java, R and Javascript. </b>
+                <b className="purple"> Python, SQL, Java and Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interests are building &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">end-to-end products </b> in areas related to{" "}
                 <b className="purple">
                   Deep Learning, Computer Vision, and Natural Launguage Processing.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing  
-              <i>
-                <b className="purple"> AI products with frontend and backend</b>
-              </i>
-              &nbsp; and also
+              Whenever possible, I love
               <i>
                 <b className="purple"> competiting in machine learning hackathons. </b>
               </i>
