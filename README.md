@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href=" target="_blank">anoop-bayyesian.tech</a>
+  <a href=" target="_blank">anoop-bayesian.tech</a>
 </h2>
 
 <br/>
