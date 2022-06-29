@@ -17,5 +17,10 @@ jobs:
           aws-region: ${{secrets.AWS_REGION}}
       - name: Build React App
         run:  npm install && npm run build
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./build
       - name: Deploy app build to S3 bucket
-        run:  aws s3 sync ./dist/ s3://anoopkarnik.net --delete
+        run:  aws s3 cp ./build/ s3://anoopkarnik.net
