@@ -12,11 +12,8 @@ My personal portfolio features some of my github projects as well as my resume a
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
 - VsCode
-- Vercel
 
 ## Features
 
