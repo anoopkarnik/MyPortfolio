@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+import selectFewMonths from "./selectFewMonths";
 
 function Github() {
   return (
@@ -14,6 +15,7 @@ function Github() {
         blockMargin={5}
         color="#c084f5"
         fontSize={16}
+        transformData={selectFewMonths} 
       />
     </Row>
   );
