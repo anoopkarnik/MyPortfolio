@@ -8,10 +8,8 @@ import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiFillYoutube,
-  AiFillProject,
   AiFillGithub,
   AiFillBook
 } from "react-icons/ai";
