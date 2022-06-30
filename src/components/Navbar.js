@@ -10,6 +10,10 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillYoutube,
+  AiFillProject,
+  AiFillGithub,
+  AiFillBook
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -37,7 +41,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <strong className="main-name"> Bayesian Samaritan Anoop</strong>
+          <strong className="main-name"> AKD </strong>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -73,7 +77,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiFillGithub
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
@@ -86,7 +90,7 @@ function NavBar() {
                 to="/blog"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Blogs
+                <AiFillBook style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
@@ -100,7 +104,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/videos"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillYoutube style={{ marginBottom: "2px" }} /> Videos
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
