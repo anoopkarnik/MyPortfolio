@@ -17,6 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blogs from "./components/Blogs/Blogs";
+import Videos from "./components/Videos/Videos";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -40,6 +41,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blogs />} />
+          <Route path="/videos" element={<Videos />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
