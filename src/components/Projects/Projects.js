@@ -9,6 +9,7 @@ import yelp from "../../Assets/Projects/yelp.jpeg";
 import ml_hackathon from "../../Assets/Projects/ml_hackathon.jpeg";
 import object_detection from "../../Assets/Projects/object_detection.jpg";
 import social_networking_website from "../../Assets/Projects/social_networking_website.png";
+import portfolio from "../../Assets/Projects/portfolio.jpeg";
 
 
 function Projects() {
@@ -34,7 +35,7 @@ function Projects() {
               isBlog={false}
               title="Play Store Web Crawler"
               description="Created a web crawler to fetch all of google play data for organizing a competition for a well-recognized analytics competition using scrapy framework in python."
-              link="https://github.com/anoopkarnik/webcrawlers"
+              ghLink="https://github.com/anoopkarnik/webcrawlers"
             />
           </Col>
 
@@ -44,7 +45,7 @@ function Projects() {
               isBlog={false}
               title="Multi Agent Reinforcement Learning in Pommerman"
               description="Pommerman is a multiagent game where you use 2 cooperating agents to play against 2 competing agents having partial observations of the environment and communication between cooperating agents."
-              link="https://github.com/anoopkarnik/pommerman_radio"
+              ghLink="https://github.com/anoopkarnik/pommerman_radio"
             />
           </Col>
 
@@ -57,7 +58,7 @@ function Projects() {
               and color contrast to ﬁnd the windows containing objects and then use non max
               suppression sampling to ﬁnd the optimal windows and train a naive bayes model
               with a training set of images."
-              link="https://github.com/Prathyusha-Akundi/Measuring_Objectness"
+              ghLink="https://github.com/Prathyusha-Akundi/Measuring_Objectness"
             />
           </Col>
 
@@ -70,7 +71,7 @@ function Projects() {
               detect text in natural images like sign boards on roads. We then identify the
               characters using spacing and recognize words in the text using Resnet neural
               network architecture."
-              link="https://github.com/anoopkarnik/SceneTextDetection"
+              ghLink="https://github.com/anoopkarnik/SceneTextDetection"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -81,7 +82,7 @@ function Projects() {
               description="Created a Social Networking Site for Elderly using python ﬂask, javascript, html,
               css, sockets with a teammate with chatrooms, friends, likes, comments, games,
               etc features as per elderly design and usage requirements."
-              link="https://github.com/anoopkarnik/SNFE.git"
+              ghLink="https://github.com/anoopkarnik/SNFE.git"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -91,7 +92,16 @@ function Projects() {
               title="ML Hackathons in Analytics Vidhya & AICrowd"
               description="Participated in many hackathons containing classiﬁcation, regression, NLP and
               computer vision task and secured top 10 ranks in few competitions."
-              link="https://github.com/anoopkarnik/AnalyticsVidhyaLinux"
+              ghLink="https://github.com/anoopkarnik/AnalyticsVidhyaLinux"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Basic Design Portfolio for my sister"
+              description="Created a basic design portfolio for my sister using only html, css years back"
+              ghLink="https://github.com/anoopkarnik/BasicDesignPortfolio.git"
             />
           </Col>
         </Row>
